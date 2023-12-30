@@ -1,1 +1,143 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhomepage">
+        <div class="bg-container">
+            <h1 class="heading">Animals</h1>
+            <div class="d-flex flex-row justify-conntent-center">
+                <div>
+                    <img src=" https://assets.ccbp.in/frontend/static-website/animals-turtle-img.png" class="head" />
+                    <button class="btn-primary button" onclick="display('sectiondetailspage')"> view details</button>
+                </div>
+                <div>
+                    <img src="https://assets.ccbp.in/frontend/static-website/animals-raccoon-img.png" class="head" />
+                    <button class="btn-primary button" onclick="display('sectionracoonpage')">view details</button>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-conntent-center">
+                <div>
+                    <img src="https://assets.ccbp.in/frontend/static-website/animals-kangaroo-img.png " class="head" />
+                    <button class="btn-primary button" onclick="display('sectionkangaroopage')"> view details</button>
+                </div>
+                <div>
+                    <img src="https://assets.ccbp.in/frontend/static-website/animals-lion-img.png" class="head" />
+                    <button class="btn-primary button" onclick="display('sectionlionpage')">view details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectiondetailspage">
+        <div class="bg-container1 d-flex flex-column justify-content-end">
+            <div class="container">
+                <div>
+                    <h1> sea tortle</h1>
+                    <p>sea toertle are reptails of the order race</p>
+                    <button class="btn-primary button" onclick="display('sectionhomepage')">back</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="sectionracoonpage">
+        <div class="bg-container2 d-flex flex-column justify-content-end">
+            <div class="container">
+                <div>
+                    <h1> sea tortle</h1>
+                    <p>sea toertle are reptails of the order race</p>
+                    <button class="btn-primary button" onclick="display('sectionhomepage')">back</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="sectionkangaroopage">
+        <div class="bg-container3 d-flex flex-column justify-content-end">
+            <div class="container">
+                <div>
+                    <h1> sea tortle</h1>
+                    <p>sea toertle are reptails of the order race</p>
+                    <button class="btn-primary button" onclick="display('sectionhomepage')">back</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="sectionlionpage">
+        <div class="bg-container4 d-flex flex-column justify-content-end">
+            <div class="container">
+                <div>
+                    <h1> sea tortle</h1>
+                    <p>sea toertle are reptails of the order race</p>
+                    <button class="btn-primary button" onclick="display('sectionhomepage')">back</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+    background-color: black;
+    height: 100vh;
+    background-size: cover;
+}
+
+.head {
+    height: 180px;
+    width: 160px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.heading {
+    color: #fff;
+    font-size: 28px;
+}
+
+.button {
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    width: 160px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.bg-container1 {
+    background-image: url(' https://assets.ccbp.in/frontend/static-website/animals-turtle-bg.png');
+    height: 100vh;
+    background-size: cover;
+}
+
+.bg-container2 {
+    background-image: url(' https://assets.ccbp.in/frontend/static-website/animals-raccoon-bg.png');
+    height: 100vh;
+    background-size: cover;
+}
+
+.bg-container3 {
+    background-image: url('https://assets.ccbp.in/frontend/static-website/animals-kangaroo-bg.png');
+    height: 100vh;
+    background-size: cover;
+}
+
+.bg-container4 {
+    background-image: url('https://assets.ccbp.in/frontend/static-website/animals-lion-bg.png');
+    height: 100vh;
+    background-size: cover;
+}
